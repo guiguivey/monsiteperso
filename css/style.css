@@ -1,8 +1,21 @@
 * {
   margin: 0;
+
 }
 
 body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#bienvenue {
   display: none;
 }
 
@@ -14,6 +27,8 @@ body {
 
 #menu {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 ul {
@@ -49,6 +64,14 @@ a:active {
    color: rgb(92, 65, 255);
    text-decoration: none;
 }
+
+.block {
+  display: none;
+  width: 70%;
+  text-align: center;
+  margin: 30px 0;
+}
+
 
                         /*MEDIA QUERIES*/
 

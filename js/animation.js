@@ -1,3 +1,4 @@
 $(document).ready(function(){
-  $("body").fadeIn(3000);
+  $(".block").fadeIn(4000);
+  $("#bienvenue").fadeIn(4000);
 });
