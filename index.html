@@ -17,15 +17,13 @@
       <h1 id="text"><a href="#">Guillaume Veyrat</a></span>
       </h1>
 
-      <div id="menu">
-        <ul>
-          <a href="#quisuisje"><li>Qui suis-je ?</li></a>
-          <a href="#mescomp"><li>Mes compétences</li></a>
-          <a href="#mesreal"><li>Mes réalisations</li></a>
-          <a href="#moncv"><li>Mon CV</li></a>
-          <a href="#mecontacter"><li>Me contacter</li></a>
-        </ul>
-      </div>
+      <ul id="menu" class="topnav">
+        <a href="#quisuisje"><li class="resp">Qui suis-je ?</li></a>
+        <a href="#mescomp"><li class="resp">Mes compétences</li></a>
+        <a href="#mesreal"><li class="resp">Mes réalisations</li></a>
+        <a href="#moncv"><li class="resp">Mon CV</li></a>
+        <a href="#mecontacter"><li>Me contacter</li></a>
+      </ul>
 
     </section>
 
@@ -114,15 +112,12 @@
       <div id="explications">
 
         <div id="expl1" class="explications">
-          <p>Cras ut eleifend ex, at egestas massa.
-          Vivamus luctus magna non est
-          laoreet.
+          <p>Un générateur d'excuses aléatoires en cas de rupture
+            codé en Javascript.
           </p>
         </div>
         <div id="expl2" class="explications">
-          <p>Cras ut eleifend ex, at egestas massa.
-          Vivamus luctus magna non est
-          laoreet.
+          <p>Premier test de "site CV" avec effet Parallax.
           </p>
         </div>
         <div id="expl3" class="explications">
@@ -146,21 +141,24 @@
 
     <section id="mecontacter" class="block">
 
-      <h2>Me contacter</h2>
-
       <div id="iconescontact">
 
         <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
         <i class="fa fa-github fa-2x" aria-hidden="true"></i>
         <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-500px fa-2x" aria-hidden="true"></i>
 
       </div>
+
+        <p id="amour">Ce site a été codé avec
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        par mes soins</p>
 
     </section>
 
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/animation.js"></script>
     <script src="js/scrolling.js"></script>
-
+    <script src="js/hamburger.js"></script>
   </body>
 </html>
