@@ -2,18 +2,17 @@
   margin: 0;
 }
 
+body {
+  display: none;
+}
+
 #text {
   font-family: 'Permanent Marker', cursive;
   font-size: 7rem;
   text-align: center;
 }
 
-#text {
-  display: none;
-}
-
 #menu {
-  display: none;
   text-align: center;
 }
 
@@ -29,4 +28,32 @@ li {
   float: left;
   margin: 0 30px;
   text-transform: uppercase;
+}
+
+a:link {
+   color: black;
+   text-decoration: none;
+}
+
+a:visited {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   color: rgb(184, 184, 184);
+   text-decoration: none;
+}
+
+a:active {
+   color: rgb(92, 65, 255);
+   text-decoration: none;
+}
+
+                        /*MEDIA QUERIES*/
+
+@media (max-width: 991px) {
+  li {
+    font-size: 1.5rem;
+  }
 }
