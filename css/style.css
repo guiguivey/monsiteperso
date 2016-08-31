@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +17,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -48,6 +49,7 @@ hr {
 }
 
 #mescomp {
+  margin: 10px 0;
 }
 
 ul {
@@ -99,21 +101,27 @@ a:active {
 }
 
 .dev {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
-#reals {
+#real {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.realisation {
-  height: 100px;
-  width: 200px;
+.realisations {
+  height: 200px;
+  width: 400px;
   border: 1px solid black;
   margin: 0 20px;
+}
+
+.explications {
+  height: 80px;
+  width: 400px;
+  margin: 10px 10px;
 }
 
 #explications {
@@ -126,11 +134,34 @@ a:active {
                         /*MEDIA QUERIES*/
 
 @media (max-width: 991px) {
+
+  #text {
+    font-size: 6.5rem;
+  }
+
+  body {
+    font-size: 1.25rem;
+  }
+
   li {
     font-size: 1.5rem;
   }
 
   .dev {
-    font-size: 4rem;
+    font-size: 4.5rem;
+  }
+
+  #real {
+    flex-direction: column;
+  }
+
+  .realisations {
+    height: 400px;
+    width: 800px;
+    margin: 15px 0;
+  }
+
+  #explications {
+    display: none;
   }
 }
